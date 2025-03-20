@@ -1,0 +1,77 @@
+# Clojure-specific
+.clj-kondo/.cache/
+.cpcache/
+.lein-*
+.nrepl-port
+.nrepl-history
+.rebel_readline_history
+.eastwood
+pom.xml
+pom.xml.asc
+
+# Compiled Java classes
+*.class
+*.jar
+*.war
+*.ear
+
+# Leiningen target directory
+target/
+classes/
+checkouts/
+
+# Logs
+logs/
+*.log
+log/
+ui-tests.log
+
+# Allure reports
+allure-results/
+allure-report/
+.allure/
+
+# Selenium WebDriver files
+*.png
+*.jpg
+*.jpeg
+*.mp4
+drivers/
+downloads/
+
+# Jenkins artifacts
+.jenkins/
+workspace/
+jenkins_home/
+
+# IDEs and editors
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.calva/
+.lsp/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+*~
+*.swp
+*.swo
+
+# Config files with sensitive information
+secrets.clj
+credentials.edn
+*.key
+*.pem
+
+# Temporary files
+tmp/
+temp/
+*.tmp
